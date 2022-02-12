@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 
 export default function Weather() {
   return (
@@ -57,13 +56,17 @@ export default function Weather() {
                             <span id="temperature">12ºC</span>
                             <br />
                             <div class="degrees">
-                              <a href="#" id="celcius-link" className="active">
+                              <a
+                                href="https://affectionate-lamport-8e5b96.netlify.app/"
+                                id="celcius-link"
+                                className="active"
+                              >
                                 {" "}
                                 ºC{" "}
                               </a>{" "}
                               |{" "}
                               <a
-                                href="#"
+                                href="https://affectionate-lamport-8e5b96.netlify.app/"
                                 id="fahrenheit-link"
                                 className="inactive"
                               >
