@@ -1,11 +1,12 @@
 import React from "react";
 import axios from "axios";
+
 export default function Weather() {
   return (
     <div className="Container">
       <div className="Card App">
         <div className="card-body">
-          <h1> Weather Forecast </h1>
+          <h1> Weather App </h1>
           <form id="form">
             <input
               className="type"
@@ -31,18 +32,15 @@ export default function Weather() {
             />
           </form>
           <h2 id="date">Tuesday, July 27th</h2>
-          <div className="time">
-            {" "}
-            Last updated: <span id="time"> 17:12 </span>{" "}
-          </div>
+
           <div className="card">
             <div className="city">
               <div className="row">
                 <div className="col-3 main-icon">
                   <img
                     src="https://openweathermap.org/img/wn/01d@2x.png"
-                    alt="icon"
                     class="icon"
+                    alt="icon"
                   />
                 </div>
                 <div class="col-9">
@@ -87,7 +85,6 @@ export default function Weather() {
                 </div>
               </div>
             </div>
-            <hr />
           </div>
         </div>
       </div>

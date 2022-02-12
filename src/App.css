@@ -118,7 +118,6 @@ input.button {
   border-color: rgba(0, 0, 0, 0.8);
   font-weight: 300;
 }
-
 .icon {
   text-align: center;
   display: block;
@@ -128,7 +127,6 @@ input.button {
   background-color: #c5e6ef;
   border-radius: 50%;
 }
-
 .time {
   margin-top: 0;
   margin-bottom: 30px;
