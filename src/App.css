@@ -42,7 +42,7 @@ div.card-body {
   background: #c5e6ef;
   max-width: 50%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 div.card-body.temperature {
   margin: 0 auto;
@@ -142,6 +142,7 @@ input.button {
 }
 div.card {
   border: none;
+  margin-bottom: 0;
 }
 .col-3 {
   padding: 0px;
@@ -249,7 +250,9 @@ div.col-9 {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.8);
 }
-
+.github {
+  margin-top: 0;
+}
 #typed-city {
   margin: 0;
 }

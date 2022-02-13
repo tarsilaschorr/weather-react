@@ -31,7 +31,6 @@ export default function Weather() {
             />
           </form>
           <h2 id="date">Tuesday, July 27th</h2>
-
           <div className="card">
             <div className="city">
               <div className="row">
@@ -90,6 +89,14 @@ export default function Weather() {
             </div>
           </div>
         </div>
+        <a
+          href="https://github.com/tarsilaschorr/weather-react"
+          className="github"
+        >
+          {" "}
+          open-source code{" "}
+        </a>
+        by Tarsila Schorr{" "}
       </div>
     </div>
   );
